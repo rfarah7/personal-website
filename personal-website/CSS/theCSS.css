@@ -1,0 +1,203 @@
+@font-face {
+font-family: Nexa Light;
+src: url('Nexa Light.otf');
+}
+
+@font-face {
+  font-family: Nexa Bold;
+  src: url('Nexa Bold.otf');
+}
+
+body {
+ background: #000000;
+ margin: 0px;
+ padding: 0px;
+ overflow: scroll;
+}
+
+.PL {
+  margin-left: -5px;
+  margin-top: 10px;
+  height: 75px;
+  width: 135px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 750px;
+  padding: 0px;
+  display: inline-flex;
+  font-family: Nexa Bold;
+  font-size: 12.5pt;
+  color: white;
+}
+
+.nav-bar {
+  margin-top: -70px;
+  position: relative;
+  padding: 0px;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.nav-bar a:active {
+  text-decoration: underline;
+}
+
+.nav-bar a:visited {
+  text-decoration: none;
+}
+
+li {
+  margin-right: 85px;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+	font-family:"arial",heletica,sans-serif;
+	font-size:12px;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+}
+
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+header {
+  font-family: Nexa Bold;
+  margin-top: 65px;
+  color: white;
+  font-size: 85px;
+  text-align: center;
+}
+
+.short-text {
+  font-family: Nexa Light;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.slogan {
+  font-family: Nexa Bold;
+  margin-top: 75px;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+#about {
+  margin-top: 300px;
+  width: 100%;
+  height: 600px;
+  background-color: white;
+}
+
+#about h1 {
+  margin-top: 75px;
+  padding: 50px;
+  font-family: Nexa Bold;
+  text-align: center;
+  font-size: 50px;
+}
+
+#about p {
+  margin-top: 70px;
+  margin-left: 20px;
+  font-family: Nexa Light;
+  font-size: 25px;
+}
+
+#about img {
+  float: right;
+  margin-top: -275px;
+  margin-right: 10px;
+  width: 475px;
+  height: 300px;
+}
+
+#known-languages {
+  margin-top: 50px;
+  width: 100%;
+  height: 410px;
+}
+
+#known-languages h1 {
+  margin-top: 45px;
+  font-family: Nexa Bold;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.h-c-j {
+  margin-left: 95px;
+  width: 500px;
+  height: 281.25px;
+}
+
+.java {
+  margin-left: 165px;
+  width: 500px;
+  height: 281.25px;
+}
+
+#personal-projects {
+  margin-top: 50px;
+  width: 100%;
+  height: 410px;
+  background-color: white;
+}
+
+#personal-projects h1 {
+  margin-top: 45px;
+  padding: 50px;
+  font-family: Nexa Bold;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+
+.footer {
+  margin-top: 25px;
+  font-family: Nexa Light;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 125px;
+}
